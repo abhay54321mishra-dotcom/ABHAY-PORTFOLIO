@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Abhay Mishra</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+	<style>
+    /* Logo image sizing — adjust as needed */
+    .nav-logo img {
+      height: 48px;
+      width: auto;
+      display: block;
+      /* Keeps it crisp on dark/light backgrounds */
+      filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
+      transition: opacity 0.2s ease;
+    }
+    .nav-logo img:hover {
+      opacity: 0.85;
+    }
+
+    .footer-logo img {
+      height: 56px;
+      width: auto;
+      display: block;
+      margin: 0 auto 0.5rem;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,0.4));
+      opacity: 0.9;
+    }
+  </style>
+	
+</head>
+	<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">&times;</button>
+  <img id="lightboxImg" src="" alt=""/>
+</div>
+<body class="page-portfolio">
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo"><img src="ABHAY MISHRA WORK IN ANIMATION/new_03.png" alt=""/></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="hire-btn">Hire Me</a>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" id="closeMenu">&#10005;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="hire-btn-mobile">Hire Me</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="section-label">My Work</div>
+    <h1>Portfolio</h1>
+    <p>A collection of works across disciplines — each piece a chapter in an ongoing visual story.</p>
+  </section>
+
+  <!-- TABS -->
+  <section class="portfolio-section">
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="illustration">Illustration</button>
+      <button class="tab-btn" data-tab="photoshop">Photoshop</button>
+      <button class="tab-btn" data-tab="aftereffects">After Effects</button>
+      <button class="tab-btn" data-tab="vfx">VFX</button>
+	 
+      <button class="tab-btn" data-tab="literature">Literature</button>
+      <button class="tab-btn" data-tab="traditional">Traditional Painting</button>
+      <button class="tab-btn" data-tab="creative">Creative Work</button>
+    </div>
+
+    <!-- ILLUSTRATION -->
+    <div class="tab-content active" id="tab-illustration">
+      <div class="tab-intro">
+        <h2>Illustration Work</h2>
+        <p>Digital illustrations that tell stories without words. From character design to editorial art, each piece is crafted with intentional detail and narrative depth.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011712.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+            <!-- <img src="images/illustration-1.jpg" alt="Illustration 1"> -->
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION </h4>
+            <p>2026 · JEWELLERY DESIGN</p>
+          </div>
+        </div>
+        
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 012016.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 ·Poster design</p>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011738.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Business card design</p>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2025-11-04 000051.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Business card design</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011436.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Poster design&nbsp;</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011508.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 ·Poster design</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011537.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+			  
+			  <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 ·Poster design</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011654.png"></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+			  <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 ·JEWELLERY DESIGN</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011640.png"></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+			  <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 ·Business card design</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011956.png"</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Concept Art</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011549.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Concept Art</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011603.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Concept Art</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011613.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 · Concept Art</p>
+          </div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span>Add Your Image<img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 011911.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info">
+            <h4>ILLUSTRATION</h4>
+            <p>2026 ·Poster design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHOTOSHOP -->
+    <div class="tab-content" id="tab-photoshop">
+      <div class="tab-intro">
+        <h2>Photoshop Work</h2>
+        <p>Photo manipulation, compositing, and retouching. Transforming the ordinary into extraordinary through layers, masks, and a keen eye for visual storytelling.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-02-05 011313.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-02-03 010631.png" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-05-19 092233.png" alt=""/></small></div>
+          </div>
+			<div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/Screenshot 2026-01-30 213802.png" alt=""/></small></div>
+          </div>
+			<div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/1 post a4.jpg"></small></div>
+          </div>
+			<div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/post 2.jpg" alt=""/></small></div>
+          </div>
+			<div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/post 1irst.jpg" alt=""/></small></div>
+          </div>
+          <div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/WhatsApp Image 2026-05-19 at 10.42.59 AM (2).jpeg" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PHOTOSHOP WORK</h4><p>2026 · Poster design</p></div>
+        </div>
+      </div>
+		
+    </div>
+
+    <!-- AFTER EFFECTS -->
+    <div class="tab-content" id="tab-aftereffects">
+      <div class="tab-intro">
+        <h2>After Effects Work</h2>
+        <p>Motion graphics, title sequences, and animated compositions. Bringing static designs to life through the rhythm of time and movement.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+  <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/Artboard 1.mp4" type="video/mp4">
+  </video>
+</div>
+          <div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Motion Graphics</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/Comp 1.mp4" type="video/mp4">
+  </video>
+          </div>
+			<div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Motion Graphics</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/product.mp4" type="video/mp4">
+  </video>
+          </div>
+			<div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Motion Graphics</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/WhatsApp Video 2026-04-23 at 3.29.26 PM.mp4" type="video/mp4">
+  </video>
+          </div>
+			<div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Motion Graphics</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/sward 1_1.mp4" type="video/mp4">
+  </video>
+          </div>
+			<div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Motion Graphics</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/art 1.mp4" type="video/mp4">
+  </video>
+          </div>
+			<div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Motion Graphics</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/perf32.mp4" type="video/mp4">
+  </video>
+          </div>
+          <div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Title Sequence</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/PRODUCT 1.mp4" type="video/mp4">
+  </video>
+          </div>
+          <div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Animation</p></div>
+        </div>
+		  <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/WhatsApp Video 2026-04-02 at 3.35.12 PM.mp4" type="video/mp4">
+  </video>
+          </div>
+          <div class="card-info"><h4>MOTION GRAPHICS</h4><p>2026 · Animation</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VFX -->
+    <div class="tab-content" id="tab-vfx">
+      <div class="tab-intro">
+        <h2>VFX Work</h2>
+        <p>Visual effects that defy reality — compositing, particle simulations, and cinematic enhancements crafted to serve the story.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/COLOR GRADING.mp4" type="video/mp4">
+  </video>
+          </div>
+          <div class="card-info"><h4>VFX Work</h4><p>2026 · VFX Compositing</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/GREEN SCREEN NEWS.mp4" type="video/mp4">
+  </video>
+          </div>
+          <div class="card-info"><h4>VFX Work</h4><p>2026 · Particle FX</p></div>
+        </div>
+        <div class="portfolio-card video-card">
+          <div class="card-img-wrap">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+    <source src="ABHAY MISHRA WORK IN ANIMATION/WhatsApp Video 2026-03-30 at 11-44-18 PM (1).mp4" type="video/mp4">
+  </video>
+          </div>
+          <div class="card-info"><h4>VFX Work</h4><p>2026 · Green Screen</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LITERATURE -->
+    <div class="tab-content" id="tab-literature">
+      <div class="tab-intro">
+        <h2>Literature Work</h2>
+        
+      </div>
+      <div class="literature-grid">
+        <div class="lit-card">
+          <div class="lit-type">Poetry</div>
+		  <img src="ABHAY MISHRA WORK IN ANIMATION/POEM 9.jpeg" alt=""/> <span class="lit-year">2025</span>
+        </div>
+        <div class="lit-card">
+          <div class="lit-type">Poetry</div>
+          <img src="ABHAY MISHRA WORK IN ANIMATION/POEM 10.jpeg" alt=""/> <span class="lit-year">2025</span>
+        </div>
+        <div class="lit-card">
+          <div class="lit-type">Poetry</div>
+          
+          <img src="ABHAY MISHRA WORK IN ANIMATION/POEM 12.jpeg" alt=""/> <span class="lit-year">2024</span>
+        </div>
+        <div class="lit-card">
+          <div class="lit-type">Poetry</div>
+          <img src="ABHAY MISHRA WORK IN ANIMATION/POEM 11.jpeg" alt=""/>
+
+          <span class="lit-year">2024</span>
+        </div>
+	    <div class="lit-card">
+          <div class="lit-type">Poetry</div>
+          <img src="ABHAY MISHRA WORK IN ANIMATION/POEM 13.jpeg" alt=""/> <span class="lit-year">2024</span>
+        </div>
+	    <div class="lit-card">
+          <div class="lit-type">Poetry</div>
+        <img src="ABHAY MISHRA WORK IN ANIMATION/POEM 5.jpeg" alt=""/> </div>
+      </div>
+    </div>
+
+    <!-- TRADITIONAL PAINTING -->
+    <div class="tab-content" id="tab-traditional">
+      <div class="tab-intro">
+        <h2>Traditional Painting</h2>
+        <p>Canvas, watercolour, charcoal, and ink — work made with physical materials that carry the marks of the hand. Each piece holds the texture of time and touch.</p>
+      </div>
+      
+		   <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><img src="ABHAY MISHRA WORK IN ANIMATION/PAINTING 2.jpeg" alt=""/><span></span><small>Photograph your painting</small></div>
+          </div>
+          <div class="card-info"><h4>Painting </h4><p>2025 · Watercolour</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/LANDSCAPE PAINTING.jpeg" alt=""/></span><small>Photograph your painting</small></div>
+          </div>
+          <div class="card-info"><h4>Painting </h4><p>2025 · Watercolour</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/PAINTING FOREST.jpeg" alt=""/></span><small>Photograph your painting</small></div>
+          </div>
+          <div class="card-info"><h4>Painting </h4><p>2024 · Watercolour</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/PAINTING CHARACTER DESIGN.jpeg" alt=""/></span><small>Photograph your painting</small></div>
+          </div>
+          <div class="card-info"><h4>Painting </h4><p>2024 · Acrylic</p></div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/PAINTING.jpeg" alt=""/></span><small>Photograph your painting</small></div>
+          </div>
+          <div class="card-info"><h4>Painting </h4><p>2024 · Watercolour</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CREATIVE WORK -->
+    <div class="tab-content" id="tab-creative">
+      <div class="tab-intro">
+        <h2>Creative Work</h2>
+        <p>Experimental, conceptual, and boundary-defying projects that don't fit into a single category. Where disciplines collide and new forms emerge.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/PAPER ART 1.jpeg" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PAPER CRAFT</h4><p>2025 · Mixed Media</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/PAPER ART 2.jpeg" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PAPER CRAFT</h4><p>2025 · Experimental</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/PAPER ART 3.jpeg" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PAPER CRAFT</h4><p>2024 · Concept</p></div>
+        </div>
+		  <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/WhatsApp Image 2026-05-19 at 10.42.59 AM.jpeg" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PAPER CRAFT</h4><p>2024 · Concept</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="card-img-wrap">
+            <div class="card-placeholder"><span><img src="ABHAY MISHRA WORK IN ANIMATION/WhatsApp Image 2026-05-19 at 10.44.20 AM.jpeg" alt=""/></span><small>Replace src in &lt;img&gt;</small></div>
+          </div>
+          <div class="card-info"><h4>PAPER CRAFT</h4><p>2024 · Installation</p></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <h2>Interested in working<br><em>together?</em></h2>
+    <a href="contact.html" class="btn-primary">Let's Talk</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-logo"><img src="ABHAY MISHRA WORK IN ANIMATION/new_03.png" alt=""/></div>
+    <p>© 2026 Abhay Mishra · AAFT School of Animation</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
